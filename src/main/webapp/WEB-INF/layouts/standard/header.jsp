@@ -9,7 +9,7 @@
 		</c:if>
 		<c:if test="${account != null}">
 		<li><a href="<c:url value="/members/${account.profileId}" />"><c:out value="${account.firstName}" /></a></li>
-		<li><a href="<c:url value="/invite" />">Invite</a></li>
+		<li><a href="<c:url value="/invite New Memebers" />">Invite</a></li>
 		<li><a href="<c:url value="/events" />">Events</a></li>
 		<li><a href="<c:url value="/develop/apps" />">Develop</a></li>
 		<li><a href="<c:url value="/settings" />">Settings</a></li>
